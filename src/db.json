@@ -1,0 +1,532 @@
+{
+  "Data":{
+    "repeatable": [
+      {
+        "tsv_code": "MISC-E",
+        "Description": "Miscellaneous"
+      },
+      {
+        "tsv_code": "EQ- PPE",
+        "Description": "PPE"
+      },
+      {
+        "tsv_code": "EQ-Bend",
+        "Description": "Bending Equpiment"
+      },
+      {
+        "tsv_code": "EQ-Bhoe",
+        "Description": "Backhoe"
+      },
+      {
+        "tsv_code": "EQ-Boom",
+        "Description": "Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFArt30",
+        "Description": "30' Dual Fuel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFArt40",
+        "Description": "40' Dual Fuel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFArt45",
+        "Description": "45' Dual Fuel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFArt60",
+        "Description": "60' Dual Fuel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFArt80",
+        "Description": "80' Dual Fuel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFStr40",
+        "Description": "40' Dual Fuel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFStr45",
+        "Description": "45' Dual Fuel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFStr60",
+        "Description": "60' Dual Fuel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDFStr80",
+        "Description": "80' Dual Fuel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLArt45",
+        "Description": "45' Diesel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLArt60",
+        "Description": "60' Diesel Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLStr110",
+        "Description": "110' Diesel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLStr120",
+        "Description": "120' Diesel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLStr135",
+        "Description": "135' Diesel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLStr60",
+        "Description": "60' Diesel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomDSLStr80",
+        "Description": "80' Diesel Str Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEArt30/20N",
+        "Description": "30/20N Electric Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEArt40",
+        "Description": "40' Electric Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEArt45",
+        "Description": "45' Electric Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEArt60",
+        "Description": "60' Electric Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEArt80",
+        "Description": "80' Electric Art Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEStr40",
+        "Description": "40' Electric Straight Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEstr45",
+        "Description": "45' Electric Straight Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEstr60",
+        "Description": "60' Electric Straight Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BoomEstr80",
+        "Description": "80' Electric Straight Boom Lift"
+      },
+      {
+        "tsv_code": "EQ-BrkrBhoe",
+        "Description": "Backhoe Breaker"
+      },
+      {
+        "tsv_code": "EQ-BrkrEx",
+        "Description": "Excavator Breaker"
+      },
+      {
+        "tsv_code": "EQ-BrkrHammer",
+        "Description": "Electric Breaker Hammer"
+      },
+      {
+        "tsv_code": "EQ-BrkrMiniEx",
+        "Description": "Mini Excavator Breaker"
+      },
+      {
+        "tsv_code": "EQ-BrkrSkid",
+        "Description": "Skid Steer Breaker"
+      },
+      {
+        "tsv_code": "EQ-Compactor",
+        "Description": "Vibratory Plate Compactors"
+      },
+      {
+        "tsv_code": "EQ-CompBrkr",
+        "Description": "Air Compressor Breaker"
+      },
+      {
+        "tsv_code": "EQ-Compressor",
+        "Description": "Air Compressor"
+      },
+      {
+        "tsv_code": "EQ-Cont201D",
+        "Description": "20' Container Single Door"
+      },
+      {
+        "tsv_code": "EQ-Cont401D",
+        "Description": "40' Container Single Door"
+      },
+      {
+        "tsv_code": "EQ-ContTnl20",
+        "Description": "20' Tunnel Container"
+      },
+      {
+        "tsv_code": "EQ-ContTnl40",
+        "Description": "40' Tunnel Container"
+      },
+      {
+        "tsv_code": "EQ-CoringSys",
+        "Description": "DD200 Coring Tool"
+      },
+      {
+        "tsv_code": "EQ-Dirt",
+        "Description": "Dirt Equipment"
+      },
+      {
+        "tsv_code": "EQ-Dump24",
+        "Description": "Dump Truck - 24 Ton"
+      },
+      {
+        "tsv_code": "EQ-Environ",
+        "Description": "Environmental Fee"
+      },
+      {
+        "tsv_code": "EQ-Excav120",
+        "Description": "120 Excavator"
+      },
+      {
+        "tsv_code": "EQ-Excav160",
+        "Description": "160 Excavator"
+      },
+      {
+        "tsv_code": "EQ-Excav200",
+        "Description": "200 Excavator"
+      },
+      {
+        "tsv_code": "EQ-Fork",
+        "Description": "Forklift"
+      },
+      {
+        "tsv_code": "EQ-ForkWH3",
+        "Description": "3000lb Warehouse Forklift"
+      },
+      {
+        "tsv_code": "EQ-ForkWH5",
+        "Description": "5000lb Warehouse Forklift"
+      },
+      {
+        "tsv_code": "EQ-ForkWH6",
+        "Description": "6000lb Warehouse Forklift"
+      },
+      {
+        "tsv_code": "EQ-Gen100",
+        "Description": "100kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen125",
+        "Description": "125kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen156",
+        "Description": "156kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen19",
+        "Description": "19kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen2000",
+        "Description": "2000W Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen40",
+        "Description": "40kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen45",
+        "Description": "45kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen50",
+        "Description": "50kW Generator"
+      },
+      {
+        "tsv_code": "EQ-Gen5500",
+        "Description": "5500W Generator"
+      },
+      {
+        "tsv_code": "EQ-Gene",
+        "Description": "Generators"
+      },
+      {
+        "tsv_code": "EQ-JumpJa",
+        "Description": "Jumping Jack"
+      },
+      {
+        "tsv_code": "EQ-Lift10",
+        "Description": "Scissor Lift 10' to 13'"
+      },
+      {
+        "tsv_code": "EQ-LightTwr",
+        "Description": "Light Tower"
+      },
+      {
+        "tsv_code": "EQ-MatLift",
+        "Description": "Material Lift SLC-24"
+      },
+      {
+        "tsv_code": "EQ-MiniEx",
+        "Description": "Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MiniEx100",
+        "Description": "10000lb Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MiniEx120",
+        "Description": "12000lb Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MiniEx150",
+        "Description": "15000lb Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MiniEx65",
+        "Description": "6500lb Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MiniEx75",
+        "Description": "7500lb Mini Excavator"
+      },
+      {
+        "tsv_code": "EQ-MobOff32x8",
+        "Description": "32'x8' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-MobOff36x10",
+        "Description": "36'x10' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-MobOff36x8",
+        "Description": "36'x8' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-MobOff44x10",
+        "Description": "44'x10' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-MobOff44x12",
+        "Description": "44'x12' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-MobOff60x12",
+        "Description": "60'x12' Mobile Office"
+      },
+      {
+        "tsv_code": "EQ-OffDW60x24",
+        "Description": "60'x24' DoubleWide Office"
+      },
+      {
+        "tsv_code": "EQ-OffGL20",
+        "Description": "20' Ground Level Office"
+      },
+      {
+        "tsv_code": "EQ-OffGL40",
+        "Description": "40' Ground Level Office"
+      },
+      {
+        "tsv_code": "EQ-Offi",
+        "Description": "Office Trailer"
+      },
+      {
+        "tsv_code": "EQ-OffSGL20",
+        "Description": "20' Office Storage Combo"
+      },
+      {
+        "tsv_code": "EQ-OffSGL40",
+        "Description": "40' Office Storage Combo"
+      },
+      {
+        "tsv_code": "EQ-Port",
+        "Description": "Porta John"
+      },
+      {
+        "tsv_code": "EQ-Push30AM",
+        "Description": "30AM Pusharound Lift"
+      },
+      {
+        "tsv_code": "EQ-PushAWP20",
+        "Description": "AWP-20S Pusharound Lift"
+      },
+      {
+        "tsv_code": "EQ-PushAWP30",
+        "Description": "AWP-30S Pusharound Lift"
+      },
+      {
+        "tsv_code": "Eq-Repair",
+        "Description": "Equipment Repairs"
+      },
+      {
+        "tsv_code": "EQ-Roller",
+        "Description": "Trench Roller"
+      },
+      {
+        "tsv_code": "EQ-Saw14",
+        "Description": "14.00\" Cut Off Saw"
+      },
+      {
+        "tsv_code": "EQ-SawCncrt",
+        "Description": "Concrete Chain Saw"
+      },
+      {
+        "tsv_code": "EQ-SawCncrtStr",
+        "Description": "Concrete Street Chain Saw"
+      },
+      {
+        "tsv_code": "EQ-Scaf",
+        "Description": "Scaffolding"
+      },
+      {
+        "tsv_code": "EQ-Scis",
+        "Description": "Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisElec19",
+        "Description": "19' Electric Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisElec26",
+        "Description": "26' Electric Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisElec32",
+        "Description": "32' Electric Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisElec40",
+        "Description": "40' Electric Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisRTS26",
+        "Description": "26' Rough Terrain Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisRTS33",
+        "Description": "33' Rough Terrain Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisRTS40",
+        "Description": "40' Rough Terrain Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-ScisRTS50",
+        "Description": "50' Rough Terrain Scissor Lift"
+      },
+      {
+        "tsv_code": "EQ-SkidAug",
+        "Description": "Skid Steer Auger"
+      },
+      {
+        "tsv_code": "EQ-SkidForks",
+        "Description": "Skid Steer Pallet Forks"
+      },
+      {
+        "tsv_code": "EQ-SkidTr",
+        "Description": "Tracked Skid Steer"
+      },
+      {
+        "tsv_code": "EQ-SkidTrench",
+        "Description": "Skid Steer Trencher"
+      },
+      {
+        "tsv_code": "EQ-SkidWh",
+        "Description": "Wheeled Skid Steer"
+      },
+      {
+        "tsv_code": "EQ-Stor",
+        "Description": "Storage container"
+      },
+      {
+        "tsv_code": "EQ-Tele10k",
+        "Description": "10k Telehandler"
+      },
+      {
+        "tsv_code": "EQ-Tele12k",
+        "Description": "12k Telehandler"
+      },
+      {
+        "tsv_code": "EQ-Tele6k",
+        "Description": "6k Telehandler"
+      },
+      {
+        "tsv_code": "EQ-Tele8k",
+        "Description": "8k Telehandler"
+      },
+      {
+        "tsv_code": "EQ-Tele9k",
+        "Description": "9k Telehandler"
+      },
+      {
+        "tsv_code": "EQ-TrashPmp2",
+        "Description": "2.00\" Trash Pump"
+      },
+      {
+        "tsv_code": "EQ-TrashPmp4",
+        "Description": "4.00\" Trash Pump"
+      },
+      {
+        "tsv_code": "EQ-TrCrane",
+        "Description": "Truck Crane"
+      },
+      {
+        "tsv_code": "EQ-TrenchRO",
+        "Description": "Ride-On Trencher"
+      },
+      {
+        "tsv_code": "EQ-TrenchShld",
+        "Description": "Steel Trench Shields"
+      },
+      {
+        "tsv_code": "EQ-TrenchWB",
+        "Description": "Walk-Behind Trencher"
+      },
+      {
+        "tsv_code": "EQ-Tugg",
+        "Description": "Tugging Equipment"
+      },
+      {
+        "tsv_code": "EQ-Util",
+        "Description": "Utility cart"
+      },
+      {
+        "tsv_code": "EQ-Vanc1",
+        "Description": "Van - Cargo"
+      },
+      {
+        "tsv_code": "EQ-VibratorCncrt",
+        "Description": "Concrete Vibrators"
+      },
+      {
+        "tsv_code": "EQ- Cleaning",
+        "Description": "Container Cleaning Fee"
+      }
+    ],
+    "oneTime": [        
+      {
+        "tsv_code": "MISC-E",
+        "Description": "Miscellaneous"
+      },
+      {
+        "tsv_code": "EQ- Delivery",
+        "Description": "Delivery"
+      },
+      {
+        "tsv_code": "EQ- Pick Up",
+        "Description": "Pick Up"
+      },
+      {
+        "tsv_code": "EQ- TIRECVR",
+        "Description": "Tire Covers"
+      },
+      {
+        "tsv_code": "EQ- Diapers",
+        "Description": "Drip Diapers"
+      }
+    ]
+  }
+}

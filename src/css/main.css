@@ -1,0 +1,66 @@
+#rental thead td{
+  border: #a09f99 2px solid;
+  margin: 0%;
+}
+
+#rental tbody td {
+  border: #a09f99 1px solid;
+  margin: 0%
+}
+
+#rental {
+  font-size: x-small;
+}
+
+body {
+  background-color: rgb(61, 61, 61);
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+div {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  color: #fffeef;
+}
+
+#form {
+  width: max-content;
+}
+
+#select-table {
+  margin-bottom: 10px;
+}
+
+div.search {
+  border-radius: unset;
+  border: black solid 1px;
+  background-color: white;
+  position: absolute;
+  padding: 0%;
+  max-height: 25ch;
+  overflow-y: auto;
+  width: 300px;
+}
+
+.search-option {
+  border: unset;
+  border-radius: unset;
+  padding: 5px 10px;
+  color: black;
+  margin-bottom: unset;
+}
+
+.search-option:hover{
+  background-color: rgb(172, 172, 172);
+}
+
+input, button, html, body {
+  font-family: Consolas, 'Courier New', monospace;
+  margin: 2px;
+}
+
+input.description{
+  width: 95%;
+}
