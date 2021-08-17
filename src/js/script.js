@@ -6,7 +6,8 @@
 function getCodes () {
   /** @type {string} */
 //   var url = `file:///src/db.json`;
-  var url = `file:///resources/app/src/db.json`;
+//   var url = `file:///resources/app/src/db.json`;
+  var url = `https://raw.githubusercontent.com/john-shupe-amteck/john-shupe-amteck.github.io/main/src/db.json`;
 
   var info = {"Data":{
     "repeatable": [],
