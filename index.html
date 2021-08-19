@@ -15,7 +15,7 @@
   <div id="form">
     <form action="post">
       <table id="rental_form_table">
-        <tbody >
+        <tbody>
           <tr>
             <td><label for="job_num">Job Number</label></td>
             <td><input id="job_num" type="text" name="Job Number"></td>
@@ -25,40 +25,28 @@
             <td><input id="tax_code" type="text" name="Tax Code"></td>
           </tr>
 
+          <!-- Table Rows for Repeatable Charges -->
           <tr id="rep_charge_row_1" class="rep">
             <td><label for="rep_charge_1">Repeatable Charges</label></td>
             <td>
-              <input id="rep_charge_1"      type="text" class="rep description" name="Repeatable Charge 1"      oninput="searchableSelect(this, true);">
-              <div   id="rep_charge_1_search"           class="rep search" hidden></div>
-              <input id="rep_charge_1_code" type="text" class="rep code"        name="Repeatable Charge 1 Code" hidden>
+              <input id="rep_charge_1" type="text" class="rep description" name="Repeatable Charge 1" list="rep_charge_1_options">
+              <datalist id="rep_charge_1_options"></datalist>
             </td>
-            <td>
-              <input id="rep_charge_1_price" type="number" class="rep price" name="Repeatable Charge 1 Price" placeholder="Price">
-            </td>
-            <td>
-              
-            </td>
-            <td>
-              <button type="button" onclick="addRentalRow('repeatable')">Add Row</button>
-            </td>
+            <td><input id="rep_charge_1_price" type="number" class="rep price" name="Repeatable Charge 1 Price" placeholder="Price"></td>
+            <td></td>
+            <td><button type="button" onclick="addRentalRow('repeatable')">Add Row</button></td>
           </tr>
-          
+
+          <!-- Table Rows for One Time Charges -->
           <tr id="one_time_charge_row_1" class="one_time">
             <td><label for="one_time_charge_1">One Time Charges</label></td>
             <td>
-              <input id="one_time_charge_1" type="text" class="one_time description" name="One Time Charge 1" oninput="searchableSelect(this);">
-              <div id="one_time_1_search" class="one_time search" hidden></div>
-              <input id="one_time_charge_1_code" type="text" class="one_time code" name="One Time Charge 1 Code" hidden>
+              <input id="one_time_charge_1" type="text" class="one_time description" name="One Time Charge 1" list="one_time_charge_1_options">
+              <datalist id="one_time_charge_1_options"></datalist>
             </td>
-            <td>
-              <input id="one_time_charge_1_price" type="number" class="one_time price" name="One Time Charge 1 Price" placeholder="Price">
-            </td>
-            <td>
-              <button id="one_time_charge_1_delete" type="button" onclick="deleteRow('one_time_charge_row_1')">X</button>
-            </td>
-            <td>
-              <button type="button" onclick="addRentalRow('single')">Add Row</button>
-            </td>
+            <td><input id="one_time_charge_1_price" type="number" class="one_time price" name="One Time Charge 1 Price" placeholder="Price"></td>
+            <td><button id="one_time_charge_1_delete" type="button" onclick="deleteRow('one_time_charge_row_1')">X</button></td>
+            <td><button type="button" onclick="addRentalRow('single')">Add Row</button></td>
           </tr>
 
           <tr>
@@ -143,9 +131,12 @@
     </div>
   </div>
   <script src="src/js/script.js"></script>
-  <script src="src/js/searchableSelect.js"></script>
   <script>
     var mainData = getCodes();
+    $(document).ready(function () {
+      populateDatalist(rep_charge_1, true);
+      populateDatalist(one_time_charge_1, false);
+    });    
   </script>
 </body>
 </html>

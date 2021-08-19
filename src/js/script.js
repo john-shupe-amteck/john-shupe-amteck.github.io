@@ -5,9 +5,8 @@
  */
 function getCodes () {
   /** @type {string} */
-//   var url = `file:///src/db.json`;
-//   var url = `file:///resources/app/src/db.json`;
-  var url = `https://raw.githubusercontent.com/john-shupe-amteck/john-shupe-amteck.github.io/main/src/db.json`;
+  var url = `file:///src/db.json`;
+  // var url = `file:///resources/app/src/db.json`;
 
   var info = {"Data":{
     "repeatable": [],
@@ -30,7 +29,7 @@ function getCodes () {
     }
   }
   request.send();
-  return info
+  return info;
 }
 
 
@@ -53,11 +52,8 @@ function insertAfter(newNode, referenceNode) {
  * @param {string} chargeType - type of line to be added
  */
 function addRentalRow(chargeType) {
-  /** @type {number} */
   var adder;
-  /** @type {string} */
   var type;
-  /** @type {string} */
   var description;
   switch (chargeType) {
     case 'repeatable':
@@ -89,23 +85,12 @@ function addRentalRow(chargeType) {
     className: `${type} description`,
     name:      `${description} Charge ${adder}`
   })
-  descriptionInput.setAttribute('oninput',`javascript: searchableSelect(this, ${repeatable});`);
+  descriptionInput.setAttribute('list',`${type}_charge_${adder}_options`);
 
-  var code_search = document.createElement('div');
-  Object.assign(code_search, {
-    id:        `${type}_charge_${adder}_search`,
-    className: `${type} search`
+  var datalist = document.createElement('datalist');
+  Object.assign(datalist, {
+    id: `${type}_charge_${adder}_options`
   })
-  $(code_search).hide()
-
-  var codeInput = document.createElement('input');
-  Object.assign(codeInput, {
-    id:        `${type}_charge_${adder}_code`,
-    className: `${type} code`,
-    name:      `${type} Charge ${adder} Code`,
-    type:      'text'
-  })
-  $(codeInput).hide()
 
   var price_entry = document.createElement('input');
   Object.assign(price_entry, {
@@ -127,8 +112,7 @@ function addRentalRow(chargeType) {
 
   var cell1 = row.insertCell(1)
   cell1.appendChild(descriptionInput)
-  cell1.appendChild(code_search)
-  cell1.appendChild(codeInput)
+  cell1.appendChild(datalist)
 
   var cell2 = row.insertCell(2)
   cell2.appendChild(price_entry)
@@ -137,6 +121,7 @@ function addRentalRow(chargeType) {
   cell3.appendChild(deleteButton)
 
   insertAfter(row, document.getElementById(`${type}_charge_row_${adder - 1}`))
+  populateDatalist(descriptionInput, repeatable)
 }
 
 
@@ -149,10 +134,10 @@ function addRentalRow(chargeType) {
  */
 function getLines (type) {
   var getLines = $(`tr.${type}`).map(function () {
-    var description = ($(this).find('.code').val() == 'MISC-E') ? $(this).find('.misc-description').val() : $(this).find('.description').val()
+    var description = $(this).find('.description').val()
     return {
-      'description': description,
-      'value': $(this).find('.code').val(),
+      'description': description.split(' - ')[0],
+      'value': description.split(' - ')[1],
       'price': $(this).find('.price').val()
     }
   }).get()
@@ -204,6 +189,7 @@ function pad(num, size) {
   while (num.length < size) num = "0" + num;
   return num;
 }
+
 
 
 /**
@@ -327,10 +313,16 @@ function selectElementContents(el) {
   document.execCommand("copy");
 }
 
+function populateDatalist(input, repeatable) {
+  var datalist = input.nextElementSibling;
+  var arrayOfCharges = repeatable ? mainData.Data.repeatable : mainData.Data.oneTime;
+  for (let i = 0; i < arrayOfCharges.length; i++) {
+    var option = document.createElement('option');
+    option.value = arrayOfCharges[i].Description + ' - ' + arrayOfCharges[i].tsv_code
+    datalist.appendChild(option)
+  }
+}
+
 
 var added_rows_repeatable = 1;
 var added_rows_one_time = 1;
-
-$('input.description').on('click', function () {
-  console.log("testing")
-})
